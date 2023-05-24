@@ -50,7 +50,6 @@ class Main {
         else return null;
     }
     static int transfer(int a, int b, String sign){
-
         return switch (sign) {
             case "+" -> a + b;
             case "-" -> a - b;
